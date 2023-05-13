@@ -1,0 +1,82 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.edit-mode {
+}
+
+.edit-user {
+}
+
+ .edit-user display-mode {
+ }
+
+.save-user edit-mode {
+}
+
+.display-mode {
+}
+
+.cancel-user {
+}
+
+.webgrid-table {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border: solid #C5C5C5;
+    background-color: white;
+}
+
+    .webgrid-table td, th {
+        border: 1px solid #C5C5C5;
+        padding: 3px 7px 2px;
+    }
+
+.webgrid-header, .webgrid-header a {
+    background-color: #0094ff;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.webgrid-footer {
+}
+
+.webgrid-row-style {
+    padding: 3px 7px 2px;
+}
+
+.webgrid-alternating-row {
+    background-color: azure;
+    padding: 3px 7px 2px;
+}
+
+.col10Width {
+    width: 40px;
+}
+.col1Width {
+    width: 35px;
+}
+
+.col2Width {
+    width:70px;
+}
