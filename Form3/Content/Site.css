@@ -1,8 +1,8 @@
 ﻿/* Set padding to keep content from hitting the edges */
 .body-content {
     margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -35,20 +35,34 @@ input[type=number]::-webkit-outer-spin-button {
 .cancel-user {
 }
 
+.myGriddiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+}
+
+
+
 .webgrid-table {
     font-family: Arial,Helvetica,sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    width: 100%;
-    display: table;
+    width: fit-content;
+    display:table;
     border-collapse: collapse;
     border: solid #C5C5C5;
     background-color: white;
+    border-spacing: 0;
+    white-space:normal;
+    padding: 3px;
+
 }
 
     .webgrid-table td, th {
         border: 1px solid #C5C5C5;
-        padding: 3px 7px 2px;
+        text-align:center;
+        padding: 3px 3px 3px;
     }
 
 .webgrid-header, .webgrid-header a {
@@ -62,21 +76,34 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .webgrid-row-style {
-    padding: 3px 7px 2px;
+    padding: 2px 1px 2px;
 }
 
 .webgrid-alternating-row {
     background-color: azure;
-    padding: 3px 7px 2px;
+    padding: 1px;
 }
 
-.col10Width {
-    width: 40px;
+.colhobbies {
+    max-width: 210px;
+    word-break:break-word;
 }
-.col1Width {
-    width: 35px;
+.coladdress {
+    max-width: 210px;
+    word-break: break-word;
 }
 
-.col2Width {
-    width:70px;
+.colemail {
+    max-width: 210px;
+    word-break: break-word;
+}
+.colstate {
+    max-width: 100px;
+    word-break: break-word;
+
+}
+
+.colname {
+    max-width: 150px;
+    word-break: break-word;
 }
